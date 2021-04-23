@@ -5,7 +5,7 @@ export default function Toggler() {
     return (
         <div>
             <h1>Toggler Goes Here</h1>
-            <h1>{isHappy ? "😁" : "😢"}</h1>
+            <h1 onClick={() => setisHappy(!isHappy)}>{isHappy ? "😁" : "😢"}</h1>
             <h1>something else</h1>
         </div>
     )
