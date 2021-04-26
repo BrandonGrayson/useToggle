@@ -12,7 +12,7 @@ export default function Toggler() {
         <div>
             <h1>Toggler Goes Here</h1>
             <h1 onClick={toggleIsHappy}>{isHappy ? "😁" : "😢"}</h1>
-            <h1 onClick={toggleIsLoved} >{isLoved ? "❤️" : "💔"}</h1>
+            <h1 onClick={toggleIsLoved}>{isLoved ? "❤️" : "💔"}</h1>
         </div>
     )
 }
