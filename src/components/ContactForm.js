@@ -7,7 +7,7 @@ export default function ContactForm() {
     }
     return(
         <div>
-           <h1>The value is ... {email}</h1>
+           <h1>The value is...{email}</h1>
            <input type='text' placeholder='Email' value={email} onChange={handleInput} />
         </div>
     )
